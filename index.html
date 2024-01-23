@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Pharma</title>
+    <style>
+        body{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8EJd-5ToBu3b0F5gaxEy17WVLHBVi2hYQlQ&usqp=CAU);
+            background-position:0%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+        }
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .header{
+            width: 100%;
+            height: 60px;
+            /* border: 2px solid black; */
+        }
+        ul{
+            display: flex;
+            float: right;
+            list-style: none;
+            padding-left: 70%;
+            margin-top: -3%;
+        }
+        li{
+            
+            line-height: 30px;
+            padding: 15px 15px;
+            font-size: 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 50px;
+}
+a{
+            
+        }
+
+        .sidebar{
+            margin-top: -12px;
+            width: 30%;
+            height: 800px;
+            /* border: 2px solid black; */
+            float: left;
+            overflow: scroll;
+            overflow-x: hidden;
+
+        }
+        .sidepic{
+            width: 100%;
+            height: 400px;
+
+        }
+        .mainbar{
+            margin-top: -12px;
+            width: 70%;
+            height: 700px;
+            /* border: 2px solid black; */
+            float: left;
+        }
+        .image{
+            width: 100%;
+            height: 400px;
+            /* border: 2px solid black; */
+            margin-top: 0px;
+            margin-left: 0%;
+            border-bottom: 2px solid black;
+        }
+        .catlogimg{
+            width: 100%;
+            height: 400px;
+        }
+        .textbar{
+            width: 30%;
+            height: 350px;
+            /* border: 2px solid black; */
+            float: left;
+            margin-left: 2%;
+            margin-top: 0px;
+            /* background-color: rgb(111, 111, 250); */
+        }
+        .image2
+        {
+            width: 50%;
+            height: 400px;
+            /* border: 2px solid black; */
+            float: left;
+            margin-left: 18%;
+            margin-top: 0px;
+        }
+        .catimg{
+            width: 100%;
+            height: 398px ;
+
+        }
+        h2{
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: 4%;
+            margin-top: 20px;
+            color: rgb(2, 2, 54)
+        }
+        p{
+            text-align: justify;
+            font-size: 20px;
+            font-weight: 300;
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: 5%;
+            margin-top: 40px;
+            color: rgb(2, 2, 85);
+        }
+        button{
+            text-align: center;
+            border: 0;
+            border-radius: 0%;
+            margin-top: 40PX;
+            margin-left: 30%;
+            padding: 5% 10%;
+            color: white;
+            background-color: orange;
+
+        }
+        button:hover{
+            background-color: rgb(2, 2, 54);
+            color: orange;
+            border: 2px solid orange;
+        }
+        /* a{
+            color: white;
+        } */
+        /* a:hover{
+            background-color: white;
+            color: orange; */
+        /* } */
+        .nav{
+            margin-top: 10PX;
+            font-size: 20px;
+            text-decoration: none;
+            color:rgb(2, 2, 54)
+            
+        }
+        .nav:hover{
+            color: orange;
+            background-color: rgb(2, 2, 54);
+        }
+        .btn{
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+        }
+        .btn:hover{
+            color: orange;
+            
+
+        }
+        .about{
+            width: 42%;
+            height: 400px;
+            /* border: 2px solid black; */
+            /* border-top: 2px solid orange; */
+            float: left;
+            margin-right: 50%;
+            margin-top: 100px;
+            /* background-image: url(https://gblpharma.com/wp-content/uploads/2018/07/banner.jpg); */
+        }
+        .abtimg{
+            width: 100%;
+            height: 400px;
+            margin-left: ;
+        }
+        h3{
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-right: 50%;
+            margin-top: 2%;
+        }
+        #head2{
+            line-height: 80px;
+            /* margin-top: 30px; */
+            margin-right: 40%;
+
+            /* text-align: center; */
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(2, 2, 54);
+
+        }
+        #para2{
+            line-height: 50px;
+            margin: -2%;
+            padding-right: 10%;
+        }
+        .list{
+            width: 50%;
+            height: 400px;
+            /* border: 2px solid black; */
+            /* border-top: 2px solid orange; */
+            float: left;
+            margin: -25.5% 52.5%;
+            padding-right: -1%;
+
+        }
+        #lasthead{
+            margin-top: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: italic;
+            color: white;
+            margin: 5% 8%;
+        }
+
+        #lastpara{
+            text-align: justify;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #lastpars::first-letter{
+            font-size: 30px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img class="logo" src="https://gblpharma.com/wp-content/uploads/2018/07/logo.png" alt="logo">
+        <ul>
+            
+            <li><a class="nav" href="#">Home</a></li>
+            <li><a class="nav"  href="#">About</a></li>
+            <li><a class="nav" href="#">Products</a></li>
+            <li><a class="nav" href="#">Contact</a></li>
+        </ul>
+        <hr>    
+    </div>
+    <div class="sidebar">
+    <img class="sidepic" src="https://gblpharma.com/wp-content/uploads/2018/07/about1.jpg" alt="one">
+    <br>
+    <img class="sidepic" src="https://gblpharma.com/wp-content/uploads/2018/07/about2.jpg" alt="two">
+    <br>
+    <img class="sidepic" src="https://gblpharma.com/wp-content/uploads/2018/07/about3.jpg" alt="three">
+
+
+    </div>
+    <div class="mainbar">
+        <div class="image">
+            <img class="catlogimg" src=https://img.freepik.com/free-photo/medical-banner-with-doctor-wearing-goggles_23-2149611193.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705881600&semt=sph
+             alt="catlogimg">
+        </div>
+        <div class="textbar">
+            <h2>DOWNLOAD OUR CATALOG NOW</h2>
+            <P><strong>The latest product information from our E-catalog</strong></P>
+            <button><a class="btn" href="#">DOWNLOAD</a></button>
+
+        </div>
+        <div class="image2">
+            <img class="catimg" src="https://media.istockphoto.com/id/879828756/photo/laboratory-worker-measuring-exact-formula-for-hypoallergenic-cosmetic-products.jpg?s=612x612&w=0&k=20&c=Oa5sBFiBlNZ77BRQOe36BkeApPi1C9NJnntsVHliSW8=" alt="catimg">
+
+
+        </div>
+        <br>
+        <br>
+        <h1 id="head2">HELPING YOU TO SAVE THE PROBLEM</h1>
+        <p id="para2">We procur our products from leading manufacturers with CE and ISO certifications,,,,</p>
+        <h3>-Global Pharma</h3>
+        
+
+    </div>
+    <div class="about">
+        <img class="abtimg" src="https://gblpharma.com/wp-content/uploads/2018/07/banner.jpg" alt="abtimg">
+
+    </div>
+    <div class="list">
+        <h2 id="lasthead">WHO WE ARE</h2>
+        
+            <p id="lastpara">Global Pharma was founded in early 2005 in Indonesia. Through our vision and commitment to providing premium quality medical products with unsurpassed service, we have been able to grow without compromising our level of service.
+                In May 2009, we set up our headquarters in Singapore and are now the sole agent for GP Care, COSMO Med and Winner Medical.
+            </p>
+            <p id="lastpara">Global Pharma received the Value Creation Partner Award in 2015, Enterprise Partner Award in 2017, Group Buy Advocate and Customer Service Partner in 2018 from SingHealth.  In 2016, the prestigious Singapore Enterprise Medal
+                of Honour was awarded to Global Pharma in recognition of being trustworthy, reliable and outstanding.</p>
+
+
+    </div>
+    
+</body>
+</html>
